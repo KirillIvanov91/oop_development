@@ -1,9 +1,9 @@
 import kotlin.random.Random
 
 open class Developer(
-    name: String,
-    age: Int,
-    protected val experience: Int = 5
+    name: String = "Developer",
+    age: Int = 17,
+    protected val experience: Int = 0
 
 ) : Person(name, age) {
        open val paradigm = "OOP"

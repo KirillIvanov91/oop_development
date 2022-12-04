@@ -5,7 +5,7 @@ fun main() {
     val cppDeveloper = CppDeveloper(    name = "Kristina", age = 21, experience = 3)
     val superDeveloper = Developer(name = "Developer", age = 100, experience = 100)
     val scalaDeveloper = ScalaDeveloper(name = "scalaDeveloper", age = 20, experience = 10)
-
+val developer = Developer()
     println()
     kotlinDeveloper.writeCod()
 
@@ -24,11 +24,16 @@ fun main() {
     println()
     superDeveloper.writeCod()
 
+
+
     println("Lvl - ${superDeveloper.getLvl()}")
+
+
 
     println()
     println("scalaDeveloper - ${scalaDeveloper.paradigm}")
     println("javaDeveloper - ${javaDeveloper.paradigm} ")
 
+    println(" определен девелопер ${developer.getLvl()}, ${developer.paradigm}")
 
 }
